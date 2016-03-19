@@ -5,25 +5,25 @@
  *
  */
 
-.align-left { text-align: left !important; }
-.align-right { text-align: right !important; }
-.align-center { text-align: center !important; }
+.tal { text-align: left !important; }
+.tar { text-align: right !important; }
+.tac { text-align: center !important; }
 
 @media (--screen-md) {
-  ._md-align-left { text-align: left !important; }
-  ._md-align-right { text-align: right !important; }
-  ._md-align-center { text-align: center !important; }
+  ._md.tal { text-align: left !important; }
+  ._md.tar { text-align: right !important; }
+  ._md.tac { text-align: center !important; }
 }
 
 @media (--screen-lg) {
-  ._lg-align-left { text-align: left !important; }
-  ._lg-align-right { text-align: right !important; }
-  ._lg-align-center { text-align: center !important; }
+  ._lg.tal { text-align: left !important; }
+  ._lg.tar { text-align: right !important; }
+  ._lg.tac { text-align: center !important; }
 }
 
 @media (--screen-xl) {
-  ._xl-align-left { text-align: left !important; }
-  ._xl-align-right { text-align: right !important; }
-  ._xl-align-center { text-align: center !important; }
+  ._xl.tal { text-align: left !important; }
+  ._xl.tar { text-align: right !important; }
+  ._xl.tac { text-align: center !important; }
 }
 
