@@ -7,6 +7,4 @@
 
 @import 'settings/settings.css';
 @import 'elements/elements.css';
-@import 'objects/objects.css';
-@import 'utilities/utilities.css';
-@import 'surfaces/surfaces.css';
+@import 'classes/classes.css';

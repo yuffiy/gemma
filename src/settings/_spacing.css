@@ -6,9 +6,9 @@
  */
 
 :root {
-  --spacing-1: 0.5rem;
-  --spacing-2: 1rem;
-  --spacing-3: 2rem;
-  --spacing-4: 4rem;
-  --spacing-5: 8rem;
+  --SPACING_1: 0.5rem;
+  --SPACING_2: 1rem;
+  --SPACING_3: 2rem;
+  --SPACING_4: 4rem;
+  --SPACING_5: 8rem;
 }

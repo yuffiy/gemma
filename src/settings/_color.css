@@ -1,9 +1,9 @@
 /*
  * GEMMA/COLOR
  *
- * Gemma comes with its own color palette.
+ * Gemma comes with its own COLOR palette.
  * 
- * Each color has a total of five variants, from light
+ * Each COLOR has a total of five variants, from light
  * to dark. The swatches use a numeric system similar
  * to many typefaces. The numbers and their corresponding
  * values are:
@@ -16,88 +16,88 @@
  *
  * You’ll also find custom properties for true white
  * and true black at the bottom of this file, along with
- * the 'nearBlack' color which is used as the default
- * text color.
+ * the 'nearBlack' COLOR which is used as the default
+ * text COLOR.
  *
  */
 
 :root {
   
-  --color-red-100: #ffbabf;
-  --color-red-300: #f2777f;
-  --color-red-500: #eb4651;
-  --color-red-700: #b82832;
-  --color-red-900: #7a1b21;
+  --COLOR_RED_100: #ffbabf;
+  --COLOR_RED_300: #f2777f;
+  --COLOR_RED_500: #eb4651;
+  --COLOR_RED_700: #b82832;
+  --COLOR_RED_900: #7a1b21;
 
-  --color-yellow-100: #ffd183;
-  --color-yellow-300: #ffb76e;
-  --color-yellow-500: #ff9c38;
-  --color-yellow-700: #cc6f12;
-  --color-yellow-900: #8f4700;
+  --COLOR_YELLOW_100: #ffd183;
+  --COLOR_YELLOW_300: #ffb76e;
+  --COLOR_YELLOW_500: #ff9c38;
+  --COLOR_YELLOW_700: #cc6f12;
+  --COLOR_YELLOW_900: #8f4700;
 
-  --color-green-100: #baefba;
-  --color-green-300: #9aed9a;
-  --color-green-500: #6cd96c;
-  --color-green-700: #479e47;
-  --color-green-900: #2c612c;
+  --COLOR_GREEN_100: #baefba;
+  --COLOR_GREEN_300: #9aed9a;
+  --COLOR_GREEN_500: #6cd96c;
+  --COLOR_GREEN_700: #479e47;
+  --COLOR_GREEN_900: #2c612c;
 
-  --color-aqua-100: #b9f1de;
-  --color-aqua-300: #7ae4c0;
-  --color-aqua-500: #2bd99f;
-  --color-aqua-700: #0f996b;
-  --color-aqua-900: #227358;
+  --COLOR_AQUA_100: #b9f1de;
+  --COLOR_AQUA_300: #7ae4c0;
+  --COLOR_AQUA_500: #2bd99f;
+  --COLOR_AQUA_700: #0f996b;
+  --COLOR_AQUA_900: #227358;
 
-  --color-cyan-100: #b1ecf2;
-  --color-cyan-300: #6edae6;
-  --color-cyan-500: #2bc7d9;
-  --color-cyan-700: #1095a3;
-  --color-cyan-900: #0bc16b;
+  --COLOR_CYAN_100: #b1ecf2;
+  --COLOR_CYAN_300: #6edae6;
+  --COLOR_CYAN_500: #2bc7d9;
+  --COLOR_CYAN_700: #1095a3;
+  --COLOR_CYAN_900: #0bc16b;
 
-  --color-blue-100: #acd6f2;
-  --color-blue-300: #65a9dc;
-  --color-blue-500: #2887c7;
-  --color-blue-700: #116ca8;
-  --color-blue-900: #024a7a;
+  --COLOR_BLUE_100: #acd6f2;
+  --COLOR_BLUE_300: #65a9dc;
+  --COLOR_BLUE_500: #2887c7;
+  --COLOR_BLUE_700: #116ca8;
+  --COLOR_BLUE_900: #024a7a;
 
-  --color-purple-100: #cac1f5;
-  --color-purple-300: #a69ae3;
-  --color-purple-500: #8675d9;
-  --color-purple-700: #6153a6;
-  --color-purple-900: #4f4f47;
+  --COLOR_PURPLE_100: #cac1f5;
+  --COLOR_PURPLE_300: #a69ae3;
+  --COLOR_PURPLE_500: #8675d9;
+  --COLOR_PURPLE_700: #6153a6;
+  --COLOR_PURPLE_900: #4f4f47;
 
-  --color-violet-100: #e4c7f1;
-  --color-violet-300: #b689ca;
-  --color-violet-500: #a065ba;
-  --color-violet-700: #744987;
-  --color-violet-900: #5f406b;
+  --COLOR_VIOLET_100: #e4c7f1;
+  --COLOR_VIOLET_300: #b689ca;
+  --COLOR_VIOLET_500: #a065ba;
+  --COLOR_VIOLET_700: #744987;
+  --COLOR_VIOLET_900: #5f406b;
 
-  --color-magenta-100: #ffbad1;
-  --color-magenta-300: #f57fa6;
-  --color-magenta-500: #e65082;
-  --color-magenta-700: #a3395c;
-  --color-magenta-900: #80364e;
+  --COLOR_MAGENTA_100: #ffbad1;
+  --COLOR_MAGENTA_300: #f57fa6;
+  --COLOR_MAGENTA_500: #e65082;
+  --COLOR_MAGENTA_700: #a3395c;
+  --COLOR_MAGENTA_900: #80364e;
 
-  --color-gray-100: #e6e9eb;
-  --color-gray-300: #cdcfd1;
-  --color-gray-500: #a7a9ab;
-  --color-gray-700: #707273;
-  --color-gray-900: #414242;
+  --COLOR_GRAY_100: #e6e9eb;
+  --COLOR_GRAY_300: #cdcfd1;
+  --COLOR_GRAY_500: #a7a9ab;
+  --COLOR_GRAY_700: #707273;
+  --COLOR_GRAY_900: #414242;
 
-  --color-warmGray-100: #e8e5e1;
-  --color-warmGray-300: #d9d4ce;
-  --color-warmGray-500: #c7c1bb;
-  --color-warmGray-700: #96908a;
-  --color-warmGray-900: #6b6660;
+  --COLOR_WARMGRAY_100: #e8e5e1;
+  --COLOR_WARMGRAY_300: #d9d4ce;
+  --COLOR_WARMGRAY_500: #c7c1bb;
+  --COLOR_WARMGRAY_700: #96908a;
+  --COLOR_WARMGRAY_900: #6b6660;
 
-  --color-coolGray-100: #e4e9eb;
-  --color-coolGray-300: #d0d7db;
-  --color-coolGray-500: #bbc2c7;
-  --color-coolGray-700: #929ba1;
-  --color-coolGray-900: #656d73;
+  --COLOR_COOLGRAY_100: #e4e9eb;
+  --COLOR_COOLGRAY_300: #d0d7db;
+  --COLOR_COOLGRAY_500: #bbc2c7;
+  --COLOR_COOLGRAY_700: #929ba1;
+  --COLOR_COOLGRAY_900: #656d73;
 
-  --color-white: #ffffff;
-  --color-black: #000000;
-  --color-nearBlack: #141515;
+  --COLOR_WHITE: #ffffff;
+  --COLOR_BLACK: #000000;
+  --COLOR_NEARBLACK: #141515;
 
 }
 
