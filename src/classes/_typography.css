@@ -24,7 +24,7 @@
 }
 
 .monospace {
-  font-family: 'Fira Mono', Inconsolata, Consolas, 'Lucida Sans Typewriter', Monaco, monospace;
+  font-family: 'Fira Mono', Inconsolata, Consolas, Menlo, 'Lucida Sans Typewriter', Monaco, monospace;
 }
 
 /* 
