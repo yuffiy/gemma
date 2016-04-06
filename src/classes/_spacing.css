@@ -90,7 +90,7 @@
  * Spacing utilities for md breakpoint and up
  */
 
-@media (--screen-md) {
+@media (--SCREEN_MD) {
   ._md-p0 { padding: 0; }
   ._md-p1 { padding: var(--SPACING_1); }
   ._md-p2 { padding: var(--SPACING_2); }
@@ -166,7 +166,7 @@
  * Spacing utilities for lg breakpoint and up
  */
 
-@media (--screen-lg) {
+@media (--SCREEN_LG) {
   ._lg-p0 { padding: 0; }
   ._lg-p1 { padding: var(--SPACING_1); }
   ._lg-p2 { padding: var(--SPACING_2); }
@@ -242,7 +242,7 @@
  * Spacing utilities for xl breakpoint and up
  */
 
-@media (--screen-xl) {
+@media (--SCREEN_XL) {
   ._xl-p0 { padding: 0; }
   ._xl-p1 { padding: var(--SPACING_1); }
   ._xl-p2 { padding: var(--SPACING_2); }

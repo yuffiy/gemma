@@ -12,7 +12,7 @@
  *
  */
 
-@custom-media --SCREEN-MD screen and (min-width: 32em);
-@custom-media --SCREEN-LG screen and (min-width: 48em);
-@custom-media --SCREEN-XL screen and (min-width: 64em);
+@custom-media --SCREEN_MD screen and (min-width: 32em);
+@custom-media --SCREEN_LG screen and (min-width: 48em);
+@custom-media --SCREEN_XL screen and (min-width: 64em);
 

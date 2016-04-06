@@ -14,7 +14,7 @@
 .dtcol { display: table-column; }
 .df { display: flex; }
 
-@media (--screen-md) {
+@media (--SCREEN_MD) {
   ._md-db { display: block; }
   ._md-dib { display: inline-block; }
   ._md-di { display: inline; }
@@ -25,7 +25,7 @@
   ._md-df { display: flex; }
 }
 
-@media (--screen-lg) {
+@media (--SCREEN_LG) {
   ._lg-db { display: block; }
   ._lg-dib { display: inline-block; }
   ._lg-di { display: inline; }
@@ -36,7 +36,7 @@
   ._md-df { display: flex; }
 }
 
-@media (--screen-xl) {
+@media (--SCREEN_XL) {
   ._xl-db { display: block; }
   ._xl-dib { display: inline-block; }
   ._xl-di { display: inline; }

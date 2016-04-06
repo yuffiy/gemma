@@ -13,7 +13,7 @@
 /* WARNING: POSITION: STICKY IS EXPERIMENTAL! */
 .sticky { position: sticky; }
 
-@media (--screen-md) {
+@media (--SCREEN_MD) {
   ._md-static { position: static; }
   ._md-relative { position: relative; }
   ._md-absolute { position: absolute; }
@@ -21,7 +21,7 @@
   ._md-sticky { position: sticky; }
 }
 
-@media (--screen-lg) {
+@media (--SCREEN_LG) {
   ._lg-static { position: static; }
   ._lg-relative { position: relative; }
   ._lg-absolute { position: absolute; }
@@ -29,7 +29,7 @@
   ._lg-sticky { position: sticky; }
 }
 
-@media (--screen-xl) {
+@media (--SCREEN_XL) {
   ._xl-static { position: static; }
   ._xl-relative { position: relative; }
   ._xl-absolute { position: absolute; }

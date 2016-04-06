@@ -20,7 +20,7 @@
 }
 
 .serif {
-  font-family: Charter, 'Iowan Old Style', Garamond, Georgia, serif;
+  font-family: Charter, Garamond, Georgia, serif;
 }
 
 .monospace {
@@ -42,7 +42,7 @@
 .h5,
 .h6 { font-size: 1em; }
 
-@media (--screen-lg) {
+@media (--SCREEN_LG) {
   .h1 { font-size: 3em; }
   .h2 { font-size: 2em; }
   .h3 { font-size: 1.5em; }
@@ -65,11 +65,19 @@
 .fw900 { font-weight: 900; }
 
 /*
- * SMALL CAPS
+ * CASING
  */
 
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
 .smallCaps {
-  font-size: 0.666em;
+  font-size: 0.75em;
   text-transform: uppercase;
   letter-spacing: 0.125em;
 }
