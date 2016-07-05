@@ -1,9 +1,9 @@
 /*
  * GEMMA/TYPOGRAPHY
  *
- * Base typographic styles. These attempt to set some sane defaults
- * without imposing too many opinions on style. Comment-out or
- * override as need be.
+ * Base typographic styles. These are applied after normalize.css
+ * and set some opinionated defaults to aid readability. Some
+ * niceties like custom link underlines are also applied here.
  *
  * Font families set here prefer quality system typefaces,
  * of the sans-serif variety.

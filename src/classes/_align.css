@@ -10,20 +10,20 @@
 .tac { text-align: center !important; }
 
 @media (--SCREEN_MD) {
-  ._md.tal { text-align: left !important; }
-  ._md.tar { text-align: right !important; }
-  ._md.tac { text-align: center !important; }
+  ._md-tal { text-align: left !important; }
+  ._md-tar { text-align: right !important; }
+  ._md-tac { text-align: center !important; }
 }
 
 @media (--SCREEN_LG) {
-  ._lg.tal { text-align: left !important; }
-  ._lg.tar { text-align: right !important; }
-  ._lg.tac { text-align: center !important; }
+  ._lg-tal { text-align: left !important; }
+  ._lg-tar { text-align: right !important; }
+  ._lg-tac { text-align: center !important; }
 }
 
 @media (--SCREEN_XL) {
-  ._xl.tal { text-align: left !important; }
-  ._xl.tar { text-align: right !important; }
-  ._xl.tac { text-align: center !important; }
+  ._xl-tal { text-align: left !important; }
+  ._xl-tar { text-align: right !important; }
+  ._xl-tac { text-align: center !important; }
 }
 
